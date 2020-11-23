@@ -127,7 +127,7 @@ foreach($results as $result)
 <section class="user_profile inner_pages">
   <div class="container">
     <div class="user_profile_info gray-bg padding_4x4_40">
-      <div class="upload_user_logo"> <img src="assets/images/dealer-logo.jpg" alt="image">
+      <div class="upload_user_logo"> <img src="assets/images/a.jpg" alt="image">
       </div>
 
       <div class="dealer_info">
@@ -142,14 +142,14 @@ foreach($results as $result)
         <?php include('includes/sidebar.php');?>
       <div class="col-md-6 col-sm-8">
         <div class="profile_wrap">
-          <h5 class="uppercase underline">Post a Testimonial</h5>
+          <h5 class="uppercase underline">History</h5>
             <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
           <form  method="post">
           
           
             <div class="form-group">
-              <label class="control-label">Testimonail</label>
+              <label class="control-label">Confirmation</label>
               <textarea class="form-control white_bg" name="testimonial" rows="4" required=""></textarea>
             </div>
           

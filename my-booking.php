@@ -166,7 +166,7 @@ foreach($results as $result)
   </div>
 </section>
 <!--/my-vehicles-->
-<?php include('includes/footer.php');?>
+<!--<?php include('includes/footer.php');?>-->
 
 <!-- Scripts -->
 <script src="assets/js/jquery.min.js"></script>
