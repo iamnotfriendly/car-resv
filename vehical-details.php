@@ -74,9 +74,7 @@ echo "<script>alert('Something went wrong. Please try again');</script>";
 </head>
 <body>
 
-<!-- Start Switcher -->
-<?php include('includes/colorswitcher.php');?>
-<!-- /Switcher -->  
+
 
 <!--Header-->
 <?php include('includes/header.php');?>
