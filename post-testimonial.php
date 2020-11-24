@@ -142,14 +142,14 @@ foreach($results as $result)
         <?php include('includes/sidebar.php');?>
       <div class="col-md-6 col-sm-8">
         <div class="profile_wrap">
-          <h5 class="uppercase underline">History</h5>
+          <h5 class="uppercase underline">Information</h5>
             <?php if($error){?><div class="errorWrap"><strong>ERROR</strong>:<?php echo htmlentities($error); ?> </div><?php } 
         else if($msg){?><div class="succWrap"><strong>SUCCESS</strong>:<?php echo htmlentities($msg); ?> </div><?php }?>
           <form  method="post">
           
           
             <div class="form-group">
-              <label class="control-label">Confirmation</label>
+              <label class="control-label">Information</label>
               <textarea class="form-control white_bg" name="testimonial" rows="4" required=""></textarea>
             </div>
           
